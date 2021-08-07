@@ -1,27 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
-
+body{
+    background-color: lightgray;
+}
 main {
     margin: 0 auto;
     width: 70vw;
     font-family: 'Montserrat', sans-serif;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
 }
 
 h1 {
-    border-bottom: 1px solid rgb(185, 131, 44);
+    border-bottom: 2px solid rgb(185, 131, 44);
+    font-size: 2rem;
+    text-align: center;
 }
 
 
 section div article {
-    width: 75%;
-    clear: both
+    clear: both;
+    text-align: center;
 }
 
-section div aside {
-    width: 15%;
-    float: left;
-}
+
 
 section div aside img{
-    width: 120px;
-    height: 120px;
+    width: 250px;
+    display: block;
+    margin: auto;
+    
+}
+section div aside p{
+    text-align: center;
 }
